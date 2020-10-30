@@ -18,7 +18,7 @@ Resolución óptima. Las muestras corresponden a todos los estados (x) con la ac
 Usar red neuronal.
 Se pueden entrenar dos redes: una que aprenda a seleccionar stacks de origen y otra que aprenda a seleccionar stacks de destino. 
 
-La red de los stacks de destino debería recibir como entrada un estado modificado de tal manera que **siempre** la primera columna corresponda al stack de origen. Para esta red, la salida 0 no debería considerarse (stack destino = stak origen)
+La red de los stacks de destino debería recibir como entrada un estado modificado de tal manera que **siempre** la primera columna corresponda al stack de origen. Para esta red, la salida 0 no debería considerarse (stack destino = stack origen)
 
 Para obtener buenos parámetros para la red se puede usar *RandomSearchCV*.
 
@@ -39,5 +39,5 @@ Creo que los tops de los stacks son generalmente los elementos más importantes.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNjU4ODAxLDU1MTQ0NjAwNV19
+eyJoaXN0b3J5IjpbMTkzNzQ4Mjg0MCw1NTE0NDYwMDVdfQ==
 -->

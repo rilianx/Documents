@@ -45,6 +45,7 @@ Estas muestras se pueden ir recolectando cuando el usuario interactúa con el si
 lista de nodos para elegibles --> nodo escogido por el usuario 
 Los **nodos elegibles** son los nodos hojas del árbol
 ![image](https://i.ibb.co/FJdt6NK/image.png)
+
 Y el nodo escogido es el que se selecciona para simular.
 
 La **calidad de una función** parametrizada $f_{A,B,C,D,E}$ se puede obtener observando en qué posición (normalizada entre 0 y 1) queda el nodo escogido por el usuario para cada una de las muestras de acuerdo a la función (ranking). 0 quiere decir que es el mejor nodo según la función y 1 que es el peor nodo según la función.
@@ -77,5 +78,5 @@ def hill-climbing(initial_vector):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
 -->

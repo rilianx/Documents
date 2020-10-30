@@ -1,5 +1,7 @@
 Training an ANN for solving CPMP
 ==
+> [github link](https://github.com/rilianx/Documents/blob/main/CPMP_ANN.md)
+
 La idea es entrenar una red para resolver el CPMP.
 Para hacerlo se entrena la red usando estados->acciones presentes en resoluciones óptimas del problema.
 
@@ -37,5 +39,5 @@ Creo que los tops de los stacks son generalmente los elementos más importantes.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDQ2MDA1XX0=
+eyJoaXN0b3J5IjpbMzEwNjU4ODAxLDU1MTQ0NjAwNV19
 -->

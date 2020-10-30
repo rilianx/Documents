@@ -31,11 +31,11 @@ Los estados deberían ser representados por una matriz (o un vector ordenado por
 * *compactados:* es decir, diferencias entre group_value seguidos son igual a 1.
 * *normalizados:* dividir los group_value por max_group_value
 * *elevados*: los top de los stacks en primera fila de la matriz, los espacios vacíos representados por 1.0
-![cpmp_state_ann](https://docs.google.com/drawings/d/e/2PACX-1vQNLBGwH7vfOOtnZwdv0_26tHkpk_2FxjkDKQF_BeOBGL5e5Dgok7myEZwSoNizxTMmzm_o7W61cHnF/pub?w=960&h=722)
+![cpmp_state_ann](https://docs.google.com/drawings/d/e/2PACX-1vQNLBGwH7vfOOtnZwdv0_26tHkpk_2FxjkDKQF_BeOBGL5e5Dgok7myEZwSoNizxTMmzm_o7W61cHnF/pub?w=960&h=723)
 Creo que los tops de los stacks son generalmente los elementos más importantes. La elevación permite que los tops de cada stack se encuentren siempre en la primera fila de la matriz. De esta manera la red puede ubicarlos más fácilmente.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExOTUxNTcyLDU1MTQ0NjAwNV19
+eyJoaXN0b3J5IjpbMzAwOTM5NDEzLDU1MTQ0NjAwNV19
 -->

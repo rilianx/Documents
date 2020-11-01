@@ -56,6 +56,7 @@ Entonces, por ejemplo, para un conjunto de 10 muestras, las posiciones podrían 
 Implementación
 ---
 **Fase de Extracción de datos**
+
 La idea de la extracción es generar un archivo que almacene los estados del programa (información de los nodos seleccionables) y la decisiones hechas por el usuario (nodo seleccionado).
 Más que una posición para cada nodo, lo que se debería almacener en el archivo es **toda la información** que necesita la heurística para evaluar nodos. Es decir, los datos de cada nodo seleccionable (mean, std, firstev, bestev, depth, #hijos, #nodos en nivel, etc...).
 
@@ -68,12 +69,14 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
 
 **Evaluación de la heurística**
+
 La heurística de evaluación de nodos es una función con parámetros que pueden ser ajustados.
 Para calcular la calidad de la heurística debemos analizar la información recopilada en los archivos como lo explicas acá:
 ![image](https://i.imgur.com/cMQjjt3.png)
 
 
 **Fase de entrenamiento**
+
 Una vez que hemos recopilado suficiente información pasamos a la etapa de entrenamiento.
 
 El objetivo del entrenamiento es maximizar la calidad de la función en base a las muestras. Para ello es necesario ajustar los valores de los parámetros.
@@ -111,6 +114,6 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzODI2MDc2LC00OTAyODc3MjksMTc0Mz
-M1MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbMTY5ODQzNjMzNCw0ODM4MjYwNzYsLTQ5MD
+I4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

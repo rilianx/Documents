@@ -83,11 +83,14 @@ Más que una posición para cada nodo, lo que se debería almacener en el archiv
 
 Siguiendo con tu idea:
 1. Antes de que el usuario apriete un nodo:
-	1. Se guardan todos los nodos con sus atributos en un archivo
+	1. Se recorren y guardan todos los nodos con sus atributos en un archivo
+	   * No es necesario ordenarlos 
+	   * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
+2. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODkzODU4LDE3NDMzNTA2NzgsMTM4Mz
-E4OTYzNl19
+eyJoaXN0b3J5IjpbMTMzNzcwMTc2NSwxNzQzMzUwNjc4LDEzOD
+MxODk2MzZdfQ==
 -->

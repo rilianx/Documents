@@ -87,11 +87,11 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
    * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
 
 2. En el archivo se indica el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
-	* No es necesario evaluar ni nada. En esta fase sólo se extrae
+	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que toma el usario.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzI2ODgzMiwxNzQzMzUwNjc4LDEzOD
-MxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNzM1NzI3MzgsMTc0MzM1MDY3OCwxMz
+gzMTg5NjM2XX0=
 -->

@@ -103,8 +103,10 @@ def hill-climbing(initial_vector):
 ````
 
 Tú explicas bastante bien el algoritmo aquí:
-()
+![image](https://i.imgur.com/jiAiioS.png)
+Observaciones:
+* No nos deberíamos referir a *parámetros constantes* que *varían*, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTc3MTUzOSwxNzQzMzUwNjc4LDEzOD
-MxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTE2NjA1OTcyNTksMTc0MzM1MDY3OCwxMz
+gzMTg5NjM2XX0=
 -->

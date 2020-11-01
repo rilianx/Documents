@@ -78,10 +78,16 @@ def hill-climbing(initial_vector):
 Implementación
 ---
 **Extracción de datos**
-La idea de la extracción es generar un archivo que almacene 
+La idea de la extracción es generar un archivo que almacene los estados del programa (lista de nodso) asociados a las decisiones hechas por el usuario.
+Más que una posición para cada nodo, lo que se debería almacenar es cada nodo con sus atributos.
+
+Siguiendo con tu idea:
+1. Antes de que el usuario apriete un nodo:
+	1. Se guardan todos los nodos con sus atributos en un archivo (
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNzYzNjU2LDE3NDMzNTA2NzgsMTM4Mz
-E4OTYzNl19
+eyJoaXN0b3J5IjpbLTgxNTczNTAsMTc0MzM1MDY3OCwxMzgzMT
+g5NjM2XX0=
 -->

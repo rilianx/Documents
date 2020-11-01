@@ -82,15 +82,15 @@ La idea de la extracción es generar un archivo que almacene los estados del pro
 Más que una posición para cada nodo, lo que se debería almacener en el archivo es **toda la información** que necesita la heurística para evaluar nodos. Es decir, los datos de cada nodo seleccionable (mean, std, firstev, bestev, depth, #hijos, #nodos en nivel, etc...).
 
 Siguiendo con tu idea:
-1. Antes de que el usuario apriete un nodo:
+1. Justo cuando el usuario aprieta un nodo y antes de simularlo:
 	1. Se recorren y guardan todos los nodos con sus atributos en un archivo
 	   * No es necesario ordenarlos 
 	   * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
-2. 
+	  2. En el archivo se indica el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzcwMTc2NSwxNzQzMzUwNjc4LDEzOD
+eyJoaXN0b3J5IjpbMTg2MDE5MDkzOSwxNzQzMzUwNjc4LDEzOD
 MxODk2MzZdfQ==
 -->

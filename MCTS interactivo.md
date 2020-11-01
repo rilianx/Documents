@@ -69,7 +69,9 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 
 **Evaluación de la heurística**
 La heurística de evaluación de nodos es una función con parámetros que pueden ser ajustados.
-Para calcular la calidad de la heur´s
+Para calcular la calidad de la heurística debemos analizar la información recopilada en los archivos.
+![image](https://i.imgur.com/twyvvH6.png)
+
 
 **Fase de entrenamiento**
 Una vez que hemos recopilado suficiente información pasamos a la etapa de entrenamiento.
@@ -99,6 +101,6 @@ def hill-climbing(initial_vector):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MzQ2NjY4LDE3NDMzNTA2NzgsMTM4Mz
+eyJoaXN0b3J5IjpbOTQ1OTY2OTk1LDE3NDMzNTA2NzgsMTM4Mz
 E4OTYzNl19
 -->

@@ -77,7 +77,7 @@ def hill-climbing(initial_vector):
 
 Implementación
 ---
-**Extracción de datos**
+**Fase de Extracción de datos**
 La idea de la extracción es generar un archivo que almacene los estados del programa (información de los nodos seleccionables) y la decisiones hechas por el usuario (nodo seleccionado).
 Más que una posición para cada nodo, lo que se debería almacener en el archivo es **toda la información** que necesita la heurística para evaluar nodos. Es decir, los datos de cada nodo seleccionable (mean, std, firstev, bestev, depth, #hijos, #nodos en nivel, etc...).
 
@@ -86,12 +86,13 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
    * No es necesario ordenarlos 
    * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
 
-2. En el archivo se indica el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
-	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que toma el usario.
+2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
+	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
 
 
-
+**Fase de entrenamiento**
+Una vez que hemos recopilado suficiente información 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM1NzI3MzgsMTc0MzM1MDY3OCwxMz
+eyJoaXN0b3J5IjpbLTE3MDExNzY2OTcsMTc0MzM1MDY3OCwxMz
 gzMTg5NjM2XX0=
 -->

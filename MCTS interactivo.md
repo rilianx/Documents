@@ -81,7 +81,8 @@ El objetivo del entrenamiento es maximizar la calidad de la función en base a l
 Para encontrar los mejores parámetros se puede usar técnicas conocidas de optimización como **hill climbing** o **nelder-mead**.
 
 A continuación se muestra un ejemplo de `hill climbing`
-La función `eval_heuristic` 
+La función `eval_heuristic` es la encargada de calcular el promedio de rankings asociados al vector `v`.
+Los valores de `v` se van ajustando con la función `random_value`
 
 ````python
 def hill-climbing(initial_vector):
@@ -101,8 +102,9 @@ def hill-climbing(initial_vector):
          no_improvements += 1
 ````
 
-
+Tú explicas bastante bien el algoritmo aquí:
+()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzA2OTcwMCwxNzQzMzUwNjc4LDEzOD
+eyJoaXN0b3J5IjpbMTAzOTc3MTUzOSwxNzQzMzUwNjc4LDEzOD
 MxODk2MzZdfQ==
 -->

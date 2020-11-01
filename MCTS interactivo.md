@@ -70,8 +70,8 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 
 **Evaluación de la heurística**
 
-La heurística de evaluación de nodos es una función con parámetros que pueden ser ajustados.
-Para calcular la calidad de la heurística debemos analizar la información recopilada en los archivos como lo explicas acá:
+La **heurística de evaluación** de nodos es una función con parámetros que pueden ser ajustados.
+Para calcular la **calidad de la heurística** debemos analizar la información recopilada en los archivos como lo explicas acá:
 ![image](https://i.imgur.com/cMQjjt3.png)
 
 
@@ -116,6 +116,6 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTY0OTcxMCw0ODM4MjYwNzYsLTQ5MD
-I4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTE3Njk5ODU3NDYsNDgzODI2MDc2LC00OT
+AyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
 -->

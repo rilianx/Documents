@@ -105,8 +105,8 @@ def hill-climbing(initial_vector):
 Tú explicas bastante bien el algoritmo aquí:
 ![image](https://i.imgur.com/jiAiioS.png)
 Observaciones:
-* No nos deberíamos referir a *parámetros constantes* que *varían*, más claro sería decir *parámetros que se ajustan para mejorar el promedio de rankings*.
+* No nos deberíamos referir a *parámetros constantes* que *varían*, más claro sería decir *parámetros que se ajustan para mejorar el **promedio** de rankings*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LDEzOD
-MxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4MDY2MDM0NDEsLTQ5MDI4NzcyOSwxNz
+QzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

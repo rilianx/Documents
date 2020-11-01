@@ -107,8 +107,9 @@ Tú explicas bastante bien el algoritmo aquí:
 Observaciones:
 * No nos deberíamos referir a *parámetros constantes* que *varían*, más claro sería decir *parámetros que se ajustan para mejorar el **promedio** de rankings*.
 * 2.- Un *parámetro aleatorio* se ajusta...
-* 
+* Los parámetros se van seleccionado aleatoriamente en cada iteración (no luego de 50 iteraciones fallidas)
+* Luego de 50 iteraciones fallidas termina el algoritmo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5NjUzNzY2LC00OTAyODc3MjksMTc0Mz
-M1MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbLTIxMjczNTE5NTAsLTQ5MDI4NzcyOSwxNz
+QzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

@@ -67,6 +67,9 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
 	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
 
+**Evaluación de la heurística**
+La heurística de evaluación de nodos es una función con parámetros que pueden ser ajustados.
+Para calcular la calidad de la heur´s
 
 **Fase de entrenamiento**
 Una vez que hemos recopilado suficiente información pasamos a la etapa de entrenamiento.
@@ -75,7 +78,6 @@ El objetivo del entrenamiento es maximizar la calidad de la función en base a l
 
 Para encontrar los mejores parámetros se puede usar técnicas conocidas de optimización como **hill climbing** o **nelder-mead**.
 
-El siguiente código es una idea de un algoritmo ``
 
 ````python
 def hill-climbing(initial_vector):
@@ -97,6 +99,6 @@ def hill-climbing(initial_vector):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI3NzMwNjEsMTc0MzM1MDY3OCwxMz
-gzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbNTg5MzQ2NjY4LDE3NDMzNTA2NzgsMTM4Mz
+E4OTYzNl19
 -->

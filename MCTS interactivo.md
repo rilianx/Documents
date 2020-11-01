@@ -109,8 +109,8 @@ Observaciones:
 * 2.- Un *parámetro aleatorio* se ajusta...
 * Los parámetros se van seleccionado aleatoriamente en cada iteración (no luego de 50 iteraciones fallidas)
 * Luego de 50 iteraciones fallidas termina el algoritmo.
-* El paso 4 no va..., toda la información del usuario se evalúa en la función `eval_heuristic`.
+* El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjg1MjIzMSwtNDkwMjg3NzI5LDE3ND
-MzNTA2NzgsMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbNDgzODI2MDc2LC00OTAyODc3MjksMTc0Mz
+M1MDY3OCwxMzgzMTg5NjM2XX0=
 -->

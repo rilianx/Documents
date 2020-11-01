@@ -108,6 +108,7 @@ def hill-climbing(initial_vector):
 Tú explicas bastante bien el algoritmo aquí:
 
 ![image](https://i.imgur.com/jiAiioS.png)
+
 Observaciones:
 * No nos deberíamos referir a *parámetros constantes* que *varían*, más claro sería decir *parámetros que se ajustan para mejorar el **promedio** de rankings*.
 * 2.- Un *parámetro aleatorio* se ajusta...
@@ -115,6 +116,6 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg2NjU2MDAsNDgzODI2MDc2LC00OT
-AyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbMTQ2MTY0OTcxMCw0ODM4MjYwNzYsLTQ5MD
+I4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

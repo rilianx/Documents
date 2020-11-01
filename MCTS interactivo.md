@@ -52,10 +52,30 @@ La **calidad de una función** parametrizada $f_{A,B,C,D,E}$ se puede obtener ob
 
 Entonces, por ejemplo, para un conjunto de 10 muestras, las posiciones podrían dar (0.1, 0.07, 0.2, 0.15, 0.0 ..) lo que indicaría que la función se acerca bastante a las decisiones tomadas por el usuario.
 
-**Entrenamiento**
+
+Implementación
+---
+**Fase de Extracción de datos**
+La idea de la extracción es generar un archivo que almacene los estados del programa (información de los nodos seleccionables) y la decisiones hechas por el usuario (nodo seleccionado).
+Más que una posición para cada nodo, lo que se debería almacener en el archivo es **toda la información** que necesita la heurística para evaluar nodos. Es decir, los datos de cada nodo seleccionable (mean, std, firstev, bestev, depth, #hijos, #nodos en nivel, etc...).
+
+Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simularlo**:
+1. Se recorren y guardan todos los nodos con sus atributos en un archivo
+   * No es necesario ordenarlos 
+   * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
+
+2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
+	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
+
+
+**Fase de entrenamiento**
+Una vez que hemos recopilado suficiente información pasamos a la etapa de entrenamiento.
+
 El objetivo del entrenamiento es maximizar la calidad de la función en base a las muestras. Para ello es necesario ajustar los valores de los parámetros.
 
 Para encontrar los mejores parámetros se puede usar técnicas conocidas de optimización como **hill climbing** o **nelder-mead**.
+
+El siguiente código es una idea de un algoritmo ``
 
 ````python
 def hill-climbing(initial_vector):
@@ -75,24 +95,8 @@ def hill-climbing(initial_vector):
          no_improvements += 1
 ````
 
-Implementación
----
-**Fase de Extracción de datos**
-La idea de la extracción es generar un archivo que almacene los estados del programa (información de los nodos seleccionables) y la decisiones hechas por el usuario (nodo seleccionado).
-Más que una posición para cada nodo, lo que se debería almacener en el archivo es **toda la información** que necesita la heurística para evaluar nodos. Es decir, los datos de cada nodo seleccionable (mean, std, firstev, bestev, depth, #hijos, #nodos en nivel, etc...).
 
-Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simularlo**:
-1. Se recorren y guardan todos los nodos con sus atributos en un archivo
-   * No es necesario ordenarlos 
-   * No sólo los nodos hojas ya que eventualmente cualquiera podría ser seleccionado (error previo mío)
-
-2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
-	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
-
-
-**Fase de entrenamiento**
-Una vez que hemos recopilado suficiente información 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDExNzY2OTcsMTc0MzM1MDY3OCwxMz
+eyJoaXN0b3J5IjpbLTEwMzI3NzMwNjEsMTc0MzM1MDY3OCwxMz
 gzMTg5NjM2XX0=
 -->

@@ -75,8 +75,13 @@ def hill-climbing(initial_vector):
          no_improvements += 1
 ````
 
+Implementación
+---
+**Extracción de datos**
+La idea de la extracción es generar un archivo que almacene 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbNDEwNzYzNjU2LDE3NDMzNTA2NzgsMTM4Mz
+E4OTYzNl19
 -->

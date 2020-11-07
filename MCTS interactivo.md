@@ -71,6 +71,7 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 Yo creo que un buen momento para almacenar los datos es aquí:
 
 ![image](https://i.imgur.com/lA149Px.png)
+
 Justo después de apretar un nodo (y antes de llamar a `click_node`, que es la función encargada de actualizar el árbol, simular y actualizar la información)
 Debería ser dentro de un else, ya que no nos interesa cuando se realiza la *selección automática* del mejor nodo (justo en el if previo).
 
@@ -124,7 +125,7 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyOTc5MDYyLC05MDUwMTE3MDQsMTY5Mz
-IxOTQxNiw0ODM4MjYwNzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4
-LDEzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbMTExODc0MjUzNiwtOTA1MDExNzA0LDE2OT
+MyMTk0MTYsNDgzODI2MDc2LC00OTAyODc3MjksMTc0MzM1MDY3
+OCwxMzgzMTg5NjM2XX0=
 -->

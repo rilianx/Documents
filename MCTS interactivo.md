@@ -68,7 +68,9 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
 	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
 
-
+Yo creo que un buen momento para almacenar los datos es aquí:
+![image](https://i.imgur.com/lA149Px.png)
+Justo después de apretar un nodo (y antes de llamar a `click_node`, que es la función encargada de actualizar el árbol, simular y actualizar la 
 
 
 **Evaluación de la heurística**
@@ -120,7 +122,7 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzYzOTA3MCwxNjkzMjE5NDE2LDQ4Mz
-gyNjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYz
-Nl19
+eyJoaXN0b3J5IjpbMzc2ODA2ODY0LDE2OTMyMTk0MTYsNDgzOD
+I2MDc2LC00OTAyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5NjM2
+XX0=
 -->

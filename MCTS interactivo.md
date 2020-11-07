@@ -68,6 +68,9 @@ Siguiendo con tu idea, **justo cuando el usuario aprieta un nodo y antes de simu
 2. En el archivo también debemos indicar el nodo seleccionado por el usuario (puede ser el id solamente ya que sus datos deberían haber sido agregados previamente).
 	* No es necesario evaluar ni nada. Esta es la fase de extracción en donde estamos recopilando las decisiones que va tomando el usuario.
 
+
+
+
 **Evaluación de la heurística**
 
 La **heurística de evaluación** de nodos es una función con parámetros que pueden ser ajustados.
@@ -117,6 +120,7 @@ Observaciones:
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzIxOTQxNiw0ODM4MjYwNzYsLTQ5MD
-I4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTk5NzYzOTA3MCwxNjkzMjE5NDE2LDQ4Mz
+gyNjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYz
+Nl19
 -->

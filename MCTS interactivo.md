@@ -124,8 +124,11 @@ Observaciones:
 * Los parámetros se van seleccionado aleatoriamente en cada iteración (no luego de 50 iteraciones fallidas)
 * Luego de 50 iteraciones fallidas termina el algoritmo.
 * El paso 4 no va..., toda la información del usuario se toma en cuenta en la función `eval_heuristic`.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODc0MjUzNiwtOTA1MDExNzA0LDE2OT
-MyMTk0MTYsNDgzODI2MDc2LC00OTAyODc3MjksMTc0MzM1MDY3
-OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbLTExMDQyMzUzNCwxMTE4NzQyNTM2LC05MD
+UwMTE3MDQsMTY5MzIxOTQxNiw0ODM4MjYwNzYsLTQ5MDI4Nzcy
+OSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

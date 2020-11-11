@@ -14,6 +14,10 @@ Objetivos
  - Visualizador de árbol de búsqueda que evalúa nodos usando simulaciones de solver específico
  - Generar heurística que imite el comportamiento del usuario para seleccionar el mejor nodo
 
+TODO
+---
+- [ ] Diseñar heurística genérica que tome en cuenta atributos de los nodos
+
 ¿Cómo generar una heurística que imite el comportamiento del usuario? 
 -
 Primero que nada necesitamos:
@@ -128,7 +132,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQyMzUzNCwxMTE4NzQyNTM2LC05MD
-UwMTE3MDQsMTY5MzIxOTQxNiw0ODM4MjYwNzYsLTQ5MDI4Nzcy
-OSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTY2ODM5MDE3MCwtMTEwNDIzNTM0LDExMT
+g3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3
+NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
 -->

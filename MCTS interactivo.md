@@ -16,7 +16,10 @@ Objetivos
 
 TODO
 ---
-- [ ] Diseñar heurística genérica que tome en cuenta atributos de los nodos
+- [ ] Diseñar **heurística genérica** que tome en cuenta varios atributos de los nodos. --> yo
+- [ ] Extracción de datos
+- [ ] Evaluación de heurística
+- [ ] Entrenamiento
 
 ¿Cómo generar una heurística que imite el comportamiento del usuario? 
 -
@@ -132,7 +135,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODM5MDE3MCwtMTEwNDIzNTM0LDExMT
-g3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3
-NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbLTE4MTQzMzczMzEsLTExMDQyMzUzNCwxMT
+E4NzQyNTM2LC05MDUwMTE3MDQsMTY5MzIxOTQxNiw0ODM4MjYw
+NzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ
+==
 -->

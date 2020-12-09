@@ -17,7 +17,7 @@ Objetivos
 TODO
 ---
 - [ ] Diseñar **heurística genérica** que tome en cuenta varios atributos de los nodos. --> yo
-- [ ] Extracción de datos
+- [ ] Extracción de datos --> basta con guardarlos en orden (id, parent, accion, evaluación) y usar función CreateState para recuperarlos
 - [ ] Evaluación de heurística
 - [ ] Entrenamiento
 
@@ -135,8 +135,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQzMzczMzEsLTExMDQyMzUzNCwxMT
-E4NzQyNTM2LC05MDUwMTE3MDQsMTY5MzIxOTQxNiw0ODM4MjYw
-NzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ
-==
+eyJoaXN0b3J5IjpbMTY3MjQ0NDk3NywtMTgxNDMzNzMzMSwtMT
+EwNDIzNTM0LDExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5
+NDE2LDQ4MzgyNjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMT
+M4MzE4OTYzNl19
 -->

@@ -6,7 +6,7 @@ Para hacerlo se entrena la red usando estados->acciones presentes en resolucione
 TODO
 ---
 - weight sharing (locality connected networks)
-- 
+- terminar implementación
 
 Pasos
 --
@@ -42,6 +42,6 @@ Creo que los tops de los stacks son generalmente los elementos más importantes.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjU4MDkzMCw4OTcwNzk3ODMsMzAwOT
-M5NDEzLDU1MTQ0NjAwNV19
+eyJoaXN0b3J5IjpbMTg4MjU4Njc5NSwtNDQyNTgwOTMwLDg5Nz
+A3OTc4MywzMDA5Mzk0MTMsNTUxNDQ2MDA1XX0=
 -->

@@ -48,7 +48,7 @@ A, B, C, D y E son los **parámetros de la función**.
 Basada en beam search, la propuesta toma en cuenta los siguientes indicadores en *orden de importancia*:
 - `n[d+1]`: Cantidad de nodos en siguiente nivel (menos es mejor)
 - `d` Profundidad del nodo (menor es mejor)
-- `selected`: Si el nodo ha sido seleccionado previamente. Se prefiere valor `False` si los nodos seleccionados es menor a $\sqrt{n_d}-sn_d$
+- `selected`: Si el nodo ha sido seleccionado previamente. Se prefiere valor `False` si los nodos seleccionados es menor a $\sqrt{n_d}-sn_d$ y `True` en caso contrario
 - `n_children`: Cantidad de hijos del nodo (menos es mejor)
 - `first_ev` o `best_ev`: Primera o mejor evaluación (mayor es mejor)
 
@@ -154,9 +154,9 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTkzNTEyNSw5Nzk3NDgxNiwtNTI5Mz
-k2MTcxLC0xNDI4NTA0OTgzLC0xODE0MzM3MzMxLC0xMTA0MjM1
-MzQsMTExODc0MjUzNiwtOTA1MDExNzA0LDE2OTMyMTk0MTYsND
-gzODI2MDc2LC00OTAyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5
-NjM2XX0=
+eyJoaXN0b3J5IjpbLTIwNTY2MjE5MTgsOTc5NzQ4MTYsLTUyOT
+M5NjE3MSwtMTQyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIz
+NTM0LDExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LD
+Q4MzgyNjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4
+OTYzNl19
 -->

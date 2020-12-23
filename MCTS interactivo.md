@@ -42,20 +42,25 @@ $firstev$: Es la primera evaluación del nodo
 A, B, C, D y E son los **parámetros de la función**.
 **Estos parámetros serán aprendidos por el modelo.**
 
-Propuesta
---
+---
+
+**Propuesta de heurística**
 Basada en beam search, la propuesta toma en cuenta los siguientes indicadores:
 - `n[d+1]`: Cantidad de nodos en siguiente nivel (menos es mejor)
 - `d` Profundidad del nodo (menor es mejor)
 - `n_children`: Cantidad de hijos del nodo (menos es mejor)
 - `first_ev` o `best_ev`: Primera o mejor evaluación (mayor es mejor)
-- `selected`: Si el nodo ha sido seleccionado.
+- `selected`: Si el nodo ha sido seleccionado previamente. Se prefiere `selected=True`.
 
 ````python
 def parameterized_heuristic(self,v):
 	
 ````
 
+Otros indicadores que se podrían tomar en cuenta:
+* `std_dev`: Mayor es mejor
+
+---
 
 **Calidad de la función**
 La calidad se refiere a que tan bien imita la función $f(x)$ las decisiones tomadas por el usuario.
@@ -149,8 +154,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjgyODY5NCwtNTI5Mzk2MTcxLC0xND
-I4NTA0OTgzLC0xODE0MzM3MzMxLC0xMTA0MjM1MzQsMTExODc0
-MjUzNiwtOTA1MDExNzA0LDE2OTMyMTk0MTYsNDgzODI2MDc2LC
-00OTAyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbOTc5NzQ4MTYsLTUyOTM5NjE3MSwtMTQyOD
+UwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1
+MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtND
+kwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
 -->

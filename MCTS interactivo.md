@@ -45,9 +45,11 @@ A, B, C, D y E son los **parámetros de la función**.
 Propuesta
 --
 Basada en beam search, la propuesta toma en cuenta los siguientes indicadores:
-- `n_{d+1}`: Cantidad de nodos en siguiente nivel (menos es mejor)
-- $d$: Profundidad del nodo (menor es mejor)
-- $n_children$
+- `n[d+1]`: Cantidad de nodos en siguiente nivel (menos es mejor)
+- `d` Profundidad del nodo (menor es mejor)
+- `n_children`: Cantidad de hijos del nodo (menos es mejor)
+- `first_ev` o `best_ev`: Primera o mejor evaluación (mayor es mejor)
+- `selected`: Si el nodo ha sido seleccionado.
 
 ````python
 def parameterized_heuristic(self,v):
@@ -147,8 +149,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA4NDI0ODEsLTUyOTM5NjE3MSwtMT
-QyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3
-NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3Ni
-wtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbMTYzMjgyODY5NCwtNTI5Mzk2MTcxLC0xND
+I4NTA0OTgzLC0xODE0MzM3MzMxLC0xMTA0MjM1MzQsMTExODc0
+MjUzNiwtOTA1MDExNzA0LDE2OTMyMTk0MTYsNDgzODI2MDc2LC
+00OTAyODc3MjksMTc0MzM1MDY3OCwxMzgzMTg5NjM2XX0=
 -->

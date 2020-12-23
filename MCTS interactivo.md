@@ -49,7 +49,7 @@ Basada en beam search, la propuesta toma en cuenta los siguientes indicadores en
 - `n[d+1]`: Cantidad de nodos en siguiente nivel (menos es mejor)
 - `d` Profundidad del nodo (menor es mejor)
 - `selected`: Si el nodo ha sido seleccionado previamente. 
-Se prefiere valor `False` si el número de nodos seleccionados es menor a `sqrt(` y `True` en caso contrario
+Se prefiere valor `True` si el número de nodos seleccionados es mayor a `sqrt(n[d])` 
 - `n_children`: Cantidad de hijos del nodo (menos es mejor)
 - `first_ev` o `best_ev`: Primera o mejor evaluación (mayor es mejor)
 
@@ -155,9 +155,9 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDg4MjM4MSwtMjA1NjYyMTkxOCw5Nz
-k3NDgxNiwtNTI5Mzk2MTcxLC0xNDI4NTA0OTgzLC0xODE0MzM3
-MzMxLC0xMTA0MjM1MzQsMTExODc0MjUzNiwtOTA1MDExNzA0LD
-E2OTMyMTk0MTYsNDgzODI2MDc2LC00OTAyODc3MjksMTc0MzM1
-MDY3OCwxMzgzMTg5NjM2XX0=
+eyJoaXN0b3J5IjpbNjkyODQ2MzI3LC0yMDU2NjIxOTE4LDk3OT
+c0ODE2LC01MjkzOTYxNzEsLTE0Mjg1MDQ5ODMsLTE4MTQzMzcz
+MzEsLTExMDQyMzUzNCwxMTE4NzQyNTM2LC05MDUwMTE3MDQsMT
+Y5MzIxOTQxNiw0ODM4MjYwNzYsLTQ5MDI4NzcyOSwxNzQzMzUw
+Njc4LDEzODMxODk2MzZdfQ==
 -->

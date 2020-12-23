@@ -56,10 +56,13 @@ Se prefiere valor `True` si el número de nodos seleccionados `sn[d]` es mayor a
 ````python
 def parameterized_heuristic(self,v):
 	d = self.d
-	- v[0] * self.n[d+1] \
-	- v[1] * self.d \
-	+ v[2] * sn[d] * self.selected \
-	- v[3] * self.n_children
+	return \
+	- v[0] * self.n[d+1] \  	#nodos en siguiente nivel
+	- v[1] * self.d \			#profundidad
+	+ v[2] * sn[d] * self.selected \ #n_seleccionados*selected
+	- v[3] * self.n_children \	#hijos
+	+ v[4] * first_ev \
+	+ v[5] * best_ev
 ````
 
 Otros indicadores que se podrían tomar en cuenta:
@@ -159,7 +162,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDA4MzYxMSw2OTI4NDYzMjcsLTIwNT
+eyJoaXN0b3J5IjpbLTI0MDE1ODk1NCw2OTI4NDYzMjcsLTIwNT
 Y2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3MSwtMTQyODUwNDk4
 MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1MzYsLT
 kwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3

@@ -44,7 +44,10 @@ A, B, C, D y E son los **parámetros de la función**.
 
 Propuesta
 --
-Basada en beam search, 
+Basada en beam search, la propuesta toma en cuenta los siguientes indicadores:
+- `n_{d+1}`: Cantidad de nodos en siguiente nivel (menos es mejor)
+- $d$: Profundidad del nodo (menor es mejor)
+- $n_children$
 
 ````python
 def parameterized_heuristic(self,v):
@@ -144,7 +147,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAzMjAyOTgsLTUyOTM5NjE3MSwtMT
+eyJoaXN0b3J5IjpbLTE3MDA4NDI0ODEsLTUyOTM5NjE3MSwtMT
 QyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3
 NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3Ni
 wtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19

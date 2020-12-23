@@ -49,9 +49,10 @@ Basada en beam search, la propuesta toma en cuenta los siguientes indicadores en
 - `n[d+1]`: Cantidad de nodos en siguiente nivel (menos es mejor)
 - `d` Profundidad del nodo (menor es mejor)
 - `selected`: Si el nodo ha sido seleccionado previamente. 
-Se prefiere valor `True` si el número de nodos seleccionados `sn[d]` es mayor a `sqrt(n[d])` 
+Se prefiere valor `True` si el número de nodos seleccionados `sn[d]` es grande
 - `n_children`: Cantidad de hijos del nodo (menos es mejor)
 - `first_ev` o `best_ev`: Primera o mejor evaluación (mayor es mejor)
+- `std_dev`: Mayor es mejor
 
 ````python
 def parameterized_heuristic(self,v):
@@ -60,13 +61,13 @@ def parameterized_heuristic(self,v):
 	- v[0] * self.n[d+1] \  	#nodos en siguiente nivel
 	- v[1] * self.d \			#profundidad
 	+ v[2] * sn[d] * self.selected \ #n_seleccionados*selected
-	- v[3] * self.n_children \	#hijos
-	+ v[4] * first_ev \
-	+ v[5] * best_ev
+	- v[3] * self.n_children \	#número de hijos
+	+ v[4] * self.first_ev \	#primera evaluación
+	+ v[5] * self.best_ev		#mejor evaluación
+	+ v[6] * 
 ````
 
-Otros indicadores que se podrían tomar en cuenta:
-* `std_dev`: Mayor es mejor
+
 
 ---
 
@@ -162,7 +163,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDE1ODk1NCw2OTI4NDYzMjcsLTIwNT
+eyJoaXN0b3J5IjpbMTc1NjY5MjI4Niw2OTI4NDYzMjcsLTIwNT
 Y2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3MSwtMTQyODUwNDk4
 MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1MzYsLT
 kwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3

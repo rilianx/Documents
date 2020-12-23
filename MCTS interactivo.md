@@ -42,6 +42,10 @@ $firstev$: Es la primera evaluación del nodo
 A, B, C, D y E son los **parámetros de la función**.
 **Estos parámetros serán aprendidos por el modelo.**
 
+Propuesta
+--
+Basada en beam search, 
+
 ````python
 def parameterized_heuristic(self,v):
 	
@@ -140,8 +144,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTM5NjE3MSwtMTQyODUwNDk4MywtMT
-gxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1MzYsLTkwNTAx
-MTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3NzI5LD
-E3NDMzNTA2NzgsMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbLTExMDAzMjAyOTgsLTUyOTM5NjE3MSwtMT
+QyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3
+NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3Ni
+wtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
 -->

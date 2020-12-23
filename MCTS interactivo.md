@@ -42,6 +42,11 @@ $firstev$: Es la primera evaluación del nodo
 A, B, C, D y E son los **parámetros de la función**.
 **Estos parámetros serán aprendidos por el modelo.**
 
+````python
+def parameterized_heuristic(self,v):
+	
+````
+
 
 **Calidad de la función**
 La calidad se refiere a que tan bien imita la función $f(x)$ las decisiones tomadas por el usuario.
@@ -135,8 +140,8 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg1MDQ5ODMsLTE4MTQzMzczMzEsLT
-ExMDQyMzUzNCwxMTE4NzQyNTM2LC05MDUwMTE3MDQsMTY5MzIx
-OTQxNiw0ODM4MjYwNzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LD
-EzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTUyOTM5NjE3MSwtMTQyODUwNDk4MywtMT
+gxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1MzYsLTkwNTAx
+MTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3NzI5LD
+E3NDMzNTA2NzgsMTM4MzE4OTYzNl19
 -->

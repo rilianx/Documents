@@ -56,15 +56,15 @@ Se prefiere valor `True` si el número de nodos seleccionados `sn[d]` es grande
 
 ````python
 def parameterized_heuristic(self,v):
-	d = self.d
+	d = self.depth
 	return \
-	- v[0] * self.n[d+1] \  	#nodos en siguiente nivel
-	- v[1] * self.d \			#profundidad
-	+ v[2] * sn[d] * self.selected \ #n_seleccionados*selected
-	- v[3] * self.n_children \	#número de hijos
-	+ v[4] * self.first_ev \	#primera evaluación
-	+ v[5] * self.best_ev		#mejor evaluación
-	+ v[6] * 
+	- v[0] * self.n[d+1] \  	#nodos en siguiente nivel (-)
+	- v[1] * d \				#profundidad (-)
+	+ v[2] * sn[d] * self.selected \ #n_seleccionados*selected (+)
+	- v[3] * self.n_children \	#número de hijos (-)
+	+ v[4] * self.first_ev \	#primera evaluación (+)
+	+ v[5] * self.best_ev  \	#mejor evaluación (+)
+	+ v[6] * self.std_dev		#desviación estandar (+)
 ````
 
 
@@ -163,9 +163,9 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjY5MjI4Niw2OTI4NDYzMjcsLTIwNT
-Y2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3MSwtMTQyODUwNDk4
-MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LDExMTg3NDI1MzYsLT
-kwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3
-NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl19
+eyJoaXN0b3J5IjpbLTIxMTIzMzM4NzIsNjkyODQ2MzI3LC0yMD
+U2NjIxOTE4LDk3OTc0ODE2LC01MjkzOTYxNzEsLTE0Mjg1MDQ5
+ODMsLTE4MTQzMzczMzEsLTExMDQyMzUzNCwxMTE4NzQyNTM2LC
+05MDUwMTE3MDQsMTY5MzIxOTQxNiw0ODM4MjYwNzYsLTQ5MDI4
+NzcyOSwxNzQzMzUwNjc4LDEzODMxODk2MzZdfQ==
 -->

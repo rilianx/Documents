@@ -50,8 +50,10 @@ Paper relacionado
 **Results**
 ![image](https://i.imgur.com/ElghiQr.png)
 
+**Propuesta de arquitectura**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk0ODUxODQsMTU4MzAwOTQxMiwxOD
-gyNTg2Nzk1LC00NDI1ODA5MzAsODk3MDc5NzgzLDMwMDkzOTQx
-Myw1NTE0NDYwMDVdfQ==
+eyJoaXN0b3J5IjpbLTMyNjQ4OTE1OCwtMTQzOTQ4NTE4NCwxNT
+gzMDA5NDEyLDE4ODI1ODY3OTUsLTQ0MjU4MDkzMCw4OTcwNzk3
+ODMsMzAwOTM5NDEzLDU1MTQ0NjAwNV19
 -->

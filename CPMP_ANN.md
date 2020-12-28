@@ -51,9 +51,10 @@ Paper relacionado
 ![image](https://i.imgur.com/ElghiQr.png)
 
 **Propuesta de arquitectura**
-
+El resultado es independiente de la permutación entre stacks iniciales.
+![cpmp_network](https://docs.google.com/drawings/d/e/2PACX-1vS6-C3mMF9-f1LOhvOGXyJlQ6bmlaimgx_AK8LvVfDH8xjQk4XIKeLGZzEzs73E-sZLNJFj1Zdwke7a/pub?w=960&h=720)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjQ4OTE1OCwtMTQzOTQ4NTE4NCwxNT
+eyJoaXN0b3J5IjpbMTIxNzY2ODYxMSwtMTQzOTQ4NTE4NCwxNT
 gzMDA5NDEyLDE4ODI1ODY3OTUsLTQ0MjU4MDkzMCw4OTcwNzk3
 ODMsMzAwOTM5NDEzLDU1MTQ0NjAwNV19
 -->

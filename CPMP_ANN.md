@@ -39,9 +39,16 @@ Los estados deberían ser representados por una matriz (o un vector ordenado por
 ![cpmp_state_ann](https://docs.google.com/drawings/d/e/2PACX-1vQNLBGwH7vfOOtnZwdv0_26tHkpk_2FxjkDKQF_BeOBGL5e5Dgok7myEZwSoNizxTMmzm_o7W61cHnF/pub?w=960&h=723)
 Creo que los tops de los stacks son generalmente los elementos más importantes. La elevación permite que los tops de cada stack se encuentren siempre en la primera fila de la matriz. De esta manera la red puede ubicarlos más fácilmente.
 
+Paper relacionado
+--
+[Deep learning assisted heuristic for CPMP](https://drive.google.com/file/d/1Ih_89cW38mUQYSc_YjrQXOjtKqTgw4KJ/view?usp=sharing)
+![image](https://i.imgur.com/YbTDCdb.png)
+- The network is dependent on the size of the instance, however once trained for a particular instance size, instances with less stacks and tiers can also be solved by using dummy containers.
+- The branching DNN’s input layer consists of a single node for each stack/tier position in the instance. Directly following the input layer are locally connected layers (as opposed to fully connected layers) that bind each stack together. This provides the network with knowledge about the stack structure of the CPMP. We include several locally connected layers, followed by fully connected layers that then connect to the output layer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjU4Njc5NSwtNDQyNTgwOTMwLDg5Nz
-A3OTc4MywzMDA5Mzk0MTMsNTUxNDQ2MDA1XX0=
+eyJoaXN0b3J5IjpbLTcxNzU3NDIzLDE4ODI1ODY3OTUsLTQ0Mj
+U4MDkzMCw4OTcwNzk3ODMsMzAwOTM5NDEzLDU1MTQ0NjAwNV19
+
 -->

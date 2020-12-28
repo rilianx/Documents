@@ -45,10 +45,10 @@ Paper relacionado
 ![image](https://i.imgur.com/YbTDCdb.png)
 - The network is dependent on the size of the instance, however once trained for a particular instance size, instances with less stacks and tiers can also be solved by using dummy containers.
 - The branching DNN’s input layer consists of a single node for each stack/tier position in the instance. Directly following the input layer are locally connected layers (as opposed to fully connected layers) that bind each stack together. This provides the network with knowledge about the stack structure of the CPMP. We include several locally connected layers, followed by fully connected layers that then connect to the output layer.
-
+- We use a technique called weight sharing directly following the input layer in which each tier is assigned a single weight, wi, as opposed to assigning each container a weight. As can be seen in the figure, for example in the topmost tier, the weight w3 is applied to each stack at that tier. The group value is multiplied by this weight, and then inserted into the next layer of the DNN. The propagation of the group values through these first layers can be thought of as a feature extraction process, where the same features are generated for each stack. The subsequent layers process these features and are fully connected: Each node processes its inputs with an activation function and sends its output into all nodes of the next layer. All nodes of the hidden layers use the rectifier activation function, defined as ReLU(x) = max{0, x}.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzU3NDIzLDE4ODI1ODY3OTUsLTQ0Mj
-U4MDkzMCw4OTcwNzk3ODMsMzAwOTM5NDEzLDU1MTQ0NjAwNV19
-
+eyJoaXN0b3J5IjpbMTU4MzAwOTQxMiwxODgyNTg2Nzk1LC00ND
+I1ODA5MzAsODk3MDc5NzgzLDMwMDkzOTQxMyw1NTE0NDYwMDVd
+fQ==
 -->

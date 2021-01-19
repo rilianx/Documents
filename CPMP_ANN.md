@@ -7,6 +7,7 @@ TODO
 ---
 - weight sharing (locality connected networks)
 - terminar implementación
+- ¿Qué tan modificable son las redes en keras? (ver arquitectura propuesta)
 
 Pasos
 --
@@ -54,7 +55,7 @@ Paper relacionado
 El resultado es independiente de la permutación entre stacks iniciales.
 ![cpmp_network](https://docs.google.com/drawings/d/e/2PACX-1vS6-C3mMF9-f1LOhvOGXyJlQ6bmlaimgx_AK8LvVfDH8xjQk4XIKeLGZzEzs73E-sZLNJFj1Zdwke7a/pub?w=960&h=720)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzY2ODYxMSwtMTQzOTQ4NTE4NCwxNT
-gzMDA5NDEyLDE4ODI1ODY3OTUsLTQ0MjU4MDkzMCw4OTcwNzk3
-ODMsMzAwOTM5NDEzLDU1MTQ0NjAwNV19
+eyJoaXN0b3J5IjpbMTQxNDM3NjQ4OCwxMjE3NjY4NjExLC0xND
+M5NDg1MTg0LDE1ODMwMDk0MTIsMTg4MjU4Njc5NSwtNDQyNTgw
+OTMwLDg5NzA3OTc4MywzMDA5Mzk0MTMsNTUxNDQ2MDA1XX0=
 -->

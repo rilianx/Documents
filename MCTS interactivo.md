@@ -18,7 +18,7 @@ TODO
 ---
 - Entrenar heurística
 - Definir estructura de paper 
-- 
+- Background: Búsqueda en árboles, algoritmos de búsqueda (en profundidad, anchura), MCTS
 
 ¿Cómo generar una heurística que imite el comportamiento del usuario? 
 -
@@ -162,7 +162,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjM1MDgyNSwtMjExMjMzMzg3Miw2OT
+eyJoaXN0b3J5IjpbLTc5NDUyMjIxNSwtMjExMjMzMzg3Miw2OT
 I4NDYzMjcsLTIwNTY2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3
 MSwtMTQyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LD
 ExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4Mzgy

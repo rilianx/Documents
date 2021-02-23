@@ -18,7 +18,11 @@ TODO
 ---
 - Entrenar heurística
 - Definir estructura de paper 
-- Background: Búsqueda en árboles, algoritmos de búsqueda (en profundidad, anchura), MCTS
+- Background: Búsqueda en árboles, algoritmos de búsqueda (en profundidad, anchura), [MCTS](https://www.jair.org/index.php/jair/article/download/11099/26289)
+- Descripción de la propuesta (Interactive MCTS). 
+	- Parte interactiva.
+	- Aprendizaje de heurísticas.
+- Diseño de Experimentos
 
 ¿Cómo generar una heurística que imite el comportamiento del usuario? 
 -
@@ -162,7 +166,7 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDUyMjIxNSwtMjExMjMzMzg3Miw2OT
+eyJoaXN0b3J5IjpbMTEzNzE5MTE3MCwtMjExMjMzMzg3Miw2OT
 I4NDYzMjcsLTIwNTY2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3
 MSwtMTQyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LD
 ExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4Mzgy

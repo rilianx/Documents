@@ -10,7 +10,7 @@ From the user behaviour, the solver learns a heuristic for selecting nodes autom
 > [Apuntes en Drive](https://docs.google.com/document/d/1CH2GFopOeL1EHA7i9j4Pn8T_HRM_2np9jmo_ACcgiuY/edit#heading=h.zcv4ojn5ljtv) ∙
 
 ### Papers
-> [**Imitation learning**: A survey of  **learning** methods](https://dl.acm.org/doi/abs/10.1145/3054912)
+> [**Imitation learning**: A survey of  **learning** methods](http://www.open-access.bcu.ac.uk/5045/1/Imitation%20Learning%20A%20Survey%20of%20Learning%20Methods.pdf)
 
 Objetivos
 -
@@ -169,10 +169,10 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxODYyNDg3LDExMzcxOTExNzAsLTIxMT
-IzMzM4NzIsNjkyODQ2MzI3LC0yMDU2NjIxOTE4LDk3OTc0ODE2
-LC01MjkzOTYxNzEsLTE0Mjg1MDQ5ODMsLTE4MTQzMzczMzEsLT
-ExMDQyMzUzNCwxMTE4NzQyNTM2LC05MDUwMTE3MDQsMTY5MzIx
-OTQxNiw0ODM4MjYwNzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LD
-EzODMxODk2MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjUzNzI0MTMsMTEzNzE5MTE3MCwtMj
+ExMjMzMzg3Miw2OTI4NDYzMjcsLTIwNTY2MjE5MTgsOTc5NzQ4
+MTYsLTUyOTM5NjE3MSwtMTQyODUwNDk4MywtMTgxNDMzNzMzMS
+wtMTEwNDIzNTM0LDExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkz
+MjE5NDE2LDQ4MzgyNjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2Nz
+gsMTM4MzE4OTYzNl19
 -->

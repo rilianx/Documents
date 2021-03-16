@@ -9,6 +9,9 @@ From the user behaviour, the solver learns a heuristic for selecting nodes autom
 
 > [Apuntes en Drive](https://docs.google.com/document/d/1CH2GFopOeL1EHA7i9j4Pn8T_HRM_2np9jmo_ACcgiuY/edit#heading=h.zcv4ojn5ljtv) ∙
 
+### Papers
+> [**Imitation learning**: A survey of  **learning** methods](https://dl.acm.org/doi/abs/10.1145/3054912)
+
 Objetivos
 -
  - Visualizador de árbol de búsqueda que evalúa nodos usando simulaciones de solver específico
@@ -166,10 +169,10 @@ Observaciones:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzE5MTE3MCwtMjExMjMzMzg3Miw2OT
-I4NDYzMjcsLTIwNTY2MjE5MTgsOTc5NzQ4MTYsLTUyOTM5NjE3
-MSwtMTQyODUwNDk4MywtMTgxNDMzNzMzMSwtMTEwNDIzNTM0LD
-ExMTg3NDI1MzYsLTkwNTAxMTcwNCwxNjkzMjE5NDE2LDQ4Mzgy
-NjA3NiwtNDkwMjg3NzI5LDE3NDMzNTA2NzgsMTM4MzE4OTYzNl
-19
+eyJoaXN0b3J5IjpbNDgxODYyNDg3LDExMzcxOTExNzAsLTIxMT
+IzMzM4NzIsNjkyODQ2MzI3LC0yMDU2NjIxOTE4LDk3OTc0ODE2
+LC01MjkzOTYxNzEsLTE0Mjg1MDQ5ODMsLTE4MTQzMzczMzEsLT
+ExMDQyMzUzNCwxMTE4NzQyNTM2LC05MDUwMTE3MDQsMTY5MzIx
+OTQxNiw0ODM4MjYwNzYsLTQ5MDI4NzcyOSwxNzQzMzUwNjc4LD
+EzODMxODk2MzZdfQ==
 -->

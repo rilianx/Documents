@@ -55,10 +55,10 @@ Paper relacionado
 El resultado es independiente de la permutación entre stacks iniciales.
 ![cpmp_network](https://docs.google.com/drawings/d/e/2PACX-1vS6-C3mMF9-f1LOhvOGXyJlQ6bmlaimgx_AK8LvVfDH8xjQk4XIKeLGZzEzs73E-sZLNJFj1Zdwke7a/pub?w=960&h=720)
 
-![image](https://docs.google.com/drawings/d/e/2PACX-1vQ_byCKarTmf34z_XpmTrZaIIqZlg9v_7xNFx1TapeUZ4xd8LWuJNQIoBxexe1eh4Z1sFjEsZPSie3s/pub?w=476&h=349)
+![image](https://docs.google.com/drawings/d/e/2PACX-1vQYqsi0dM52vV5GrgT41Ve2EnBsUNyAOBf904zeLhzjUI1MMjhQSbv_RcG_sevxM65x-SGNFsKlbVce/pub?w=476&h=349)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYzMTg1MTAsMTQxNDM3NjQ4OCwxMj
-E3NjY4NjExLC0xNDM5NDg1MTg0LDE1ODMwMDk0MTIsMTg4MjU4
-Njc5NSwtNDQyNTgwOTMwLDg5NzA3OTc4MywzMDA5Mzk0MTMsNT
-UxNDQ2MDA1XX0=
+eyJoaXN0b3J5IjpbNTgzMTE0OTMwLC0yMTI2MzE4NTEwLDE0MT
+QzNzY0ODgsMTIxNzY2ODYxMSwtMTQzOTQ4NTE4NCwxNTgzMDA5
+NDEyLDE4ODI1ODY3OTUsLTQ0MjU4MDkzMCw4OTcwNzk3ODMsMz
+AwOTM5NDEzLDU1MTQ0NjAwNV19
 -->

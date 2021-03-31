@@ -5,6 +5,9 @@ Para hacerlo se entrena la red usando estados->acciones presentes en resolucione
 
 TODO
 ---
+- Estudiar [PyTorch](https://github.com/mariodorochesi/jupyter_pytorch)
+- 
+
 - weight sharing (locality connected networks)
 - terminar implementación
 - ¿Qué tan modificable son las redes en keras? (ver arquitectura propuesta)
@@ -57,8 +60,8 @@ El resultado es independiente de la permutación entre stacks iniciales.
 
 ![image](https://docs.google.com/drawings/d/e/2PACX-1vQYqsi0dM52vV5GrgT41Ve2EnBsUNyAOBf904zeLhzjUI1MMjhQSbv_RcG_sevxM65x-SGNFsKlbVce/pub?w=476&h=349)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTE0OTMwLC0yMTI2MzE4NTEwLDE0MT
-QzNzY0ODgsMTIxNzY2ODYxMSwtMTQzOTQ4NTE4NCwxNTgzMDA5
-NDEyLDE4ODI1ODY3OTUsLTQ0MjU4MDkzMCw4OTcwNzk3ODMsMz
-AwOTM5NDEzLDU1MTQ0NjAwNV19
+eyJoaXN0b3J5IjpbLTQwMzcwMjQ5Myw1ODMxMTQ5MzAsLTIxMj
+YzMTg1MTAsMTQxNDM3NjQ4OCwxMjE3NjY4NjExLC0xNDM5NDg1
+MTg0LDE1ODMwMDk0MTIsMTg4MjU4Njc5NSwtNDQyNTgwOTMwLD
+g5NzA3OTc4MywzMDA5Mzk0MTMsNTUxNDQ2MDA1XX0=
 -->
